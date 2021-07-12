@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="500.0" minWidth="1000.0" prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MyViewController">
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <MenuBar>
+              <menus>
+                <Menu mnemonicParsing="false" text="Menu">
+                  <items>
+                        <Menu mnemonicParsing="false" text="File">
+                          <items>
+                              <MenuItem mnemonicParsing="false" onAction="#NewClick" text="New" />
+                              <MenuItem fx:id="SaveButton" mnemonicParsing="false" text="Save" />
+                            <MenuItem fx:id="loadButton" mnemonicParsing="false" text="Load" />
+                          </items>
+                        </Menu>
+                      <Menu mnemonicParsing="false" text="Options">
+                        <items>
+                          <MenuItem fx:id="propertiesButton" mnemonicParsing="false" onAction="#propertiesClick" text="Properties" />
+                        </items>
+                      </Menu>
+                        <MenuItem mnemonicParsing="false" onAction="#HelpClicked" text="Help" />
+                        <MenuItem mnemonicParsing="false" onAction="#AboutClicked" text="About" />
+                      <MenuItem mnemonicParsing="false" onAction="#ContactusClicked" text="ContactUs" />
+                        <MenuItem fx:id="exitButton" mnemonicParsing="false" onAction="#exitClick" text="Exit" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="https://i.ibb.co/M5j09ZB/Start-Screen.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </top>
+   <center>
+   </center>
+</BorderPane>

@@ -1,0 +1,18 @@
+
+2021.06.16 20:32:17.848 INFO  Model.MyModel - client number: 1 created a 10,10 maze
+2021.06.16 20:32:26.228 INFO  Model.MyModel - client number: 1 solved a 10,10 maze using the algorithem: BestFirstSearch.
+2021.06.16 20:32:30.481 INFO  Model.MyModel - client number: 1 solved a 10,10 maze using the algorithem: BestFirstSearch.
+2021.07.05 16:01:35.281 INFO  Model.MyModel - client number: 1 created a 1,10 maze
+2021.07.05 16:01:39.755 INFO  Model.MyModel - client number: 2 created a 10,10 maze
+2021.07.05 16:01:43.568 INFO  Model.MyModel - client number: 3 created a 10,10 maze
+2021.07.07 10:49:48.763 INFO  Model.MyModel - client number: 1 created a 10,10 maze
+2021.07.07 10:49:51.120 INFO  Model.MyModel - client number: 2 created a 50,50 maze
+2021.07.07 10:49:53.108 INFO  Model.MyModel - client number: 3 created a 20,20 maze
+2021.07.07 10:49:54.907 INFO  Model.MyModel - client number: 4 created a 25,25 maze
+2021.07.07 10:50:25.085 INFO  Model.MyModel - client number: 5 loaded a 25,25 maze
+2021.07.07 10:50:35.747 INFO  Model.MyModel - client number: 5 solved a 25,25 maze using the algorithem: BestFirstSearch.
+2021.07.07 13:11:49.741 INFO  Model.MyModel - client number: 1 created a 10,10 maze
+2021.07.07 13:12:16.835 INFO  Model.MyModel - client number: 2 created a 10,10 maze
+2021.07.07 13:12:28.385 INFO  Model.MyModel - client number: 3 loaded a 10,10 maze
+2021.07.07 13:12:36.627 INFO  Model.MyModel - client number: 3 solved a 10,10 maze using the algorithem: BestFirstSearch.
+2021.07.07 13:12:59.078 INFO  Model.MyModel - client number: 4 created a 10,10 maze
